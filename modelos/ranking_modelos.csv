@@ -1,0 +1,9 @@
+modelo,acuracia_teste,acuracia_cv,parametros
+DecisionTree,0.7093023255813954,0.7449999999999999,"{'splitter': 'random', 'min_samples_split': 18, 'min_samples_leaf': 2, 'max_depth': 3, 'criterion': 'entropy'}"
+SVM,0.6976744186046512,0.745,"{'kernel': 'sigmoid', 'gamma': 0.1, 'C': 0.01}"
+KNN,0.6976744186046512,0.7300000000000001,"{'weights': 'distance', 'n_neighbors': 9, 'metric': 'manhattan'}"
+LogisticRegression,0.6744186046511628,0.7449999999999999,"{'solver': 'lbfgs', 'C': 0.1}"
+GradientBoosting,0.6627906976744186,0.72,"{'subsample': 0.6, 'n_estimators': 100, 'max_depth': 5, 'learning_rate': 0.1}"
+NaiveBayes,0.6511627906976745,0.73,"{'binarize': 0.25, 'alpha': 2}"
+RandomForest,0.6511627906976745,0.7250000000000001,"{'n_estimators': 50, 'min_samples_split': 4, 'min_samples_leaf': 4, 'max_features': 'sqrt', 'max_depth': 3, 'criterion': 'entropy'}"
+MLP,0.6511627906976745,0.7200000000000001,"{'learning_rate_init': 0.001, 'hidden_layer_sizes': (20, 10), 'alpha': 0.1, 'activation': 'relu'}"
